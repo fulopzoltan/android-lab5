@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">android-lab3quiz</string>
+    <string name="quiz">QUIZ</string>
+    <string name="your_name">Your name</string>
+    <string name="get_started">Get Started</string>
+    <string name="the_name_of_the_player_is">The name of the player is:</string>
+    <string name="choose_from_contacts">Choose from contacts</string>
+</resources>
