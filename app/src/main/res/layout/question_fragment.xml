@@ -4,31 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GetStartedActivity">
+    tools:context=".QuestionFragment"
+    >
 
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/textView_question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/the_name_of_the_player_is"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/name"
+        android:layout_marginTop="152dp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.829" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/name"
+    <Button
+        android:id="@+id/button_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="name_placeholder"
-        android:textColor="#FF4500"
-        android:textSize="25sp"
+        android:layout_marginBottom="72dp"
+        android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
